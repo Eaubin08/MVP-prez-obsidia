@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+  <defs>
+    <style>
+      .box { fill: #111; stroke: #999; stroke-width: 2; rx: 14; ry: 14; }
+      .box2 { fill: #222; stroke: #999; stroke-width: 2; rx: 14; ry: 14; }
+      .txt { fill: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 18px; }
+      .small { fill: #ddd; font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+      .arrow { stroke: #bbb; stroke-width: 3; fill: none; marker-end: url(#m); }
+    </style>
+    <marker id="m" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#bbb"/>
+    </marker>
+  </defs>
+
+  <rect class="box" x="60" y="60" width="380" height="90"/>
+  <text class="txt" x="80" y="95">OS0 — Axioms / Contract / IR / Sandbox</text>
+  <text class="small" x="80" y="125">Frozen base • no imports to OS1/OS2</text>
+
+  <rect class="box" x="580" y="60" width="380" height="90"/>
+  <text class="txt" x="600" y="95">OS1 — Orchestration + X-108</text>
+  <text class="small" x="600" y="125">parse → validate → hold → sandbox → decision</text>
+
+  <rect class="box" x="60" y="210" width="380" height="90"/>
+  <text class="txt" x="80" y="245">OS2 — Structural Metrics (pure)</text>
+  <text class="small" x="80" y="275">Core-fixed invariance • score S</text>
+
+  <rect class="box2" x="60" y="360" width="380" height="90"/>
+  <text class="txt" x="80" y="395">OS4 — Meta / Civilisation</text>
+  <text class="small" x="80" y="425">vision • ontology • narrative constraints</text>
+
+  <rect class="box2" x="580" y="360" width="380" height="90"/>
+  <text class="txt" x="600" y="395">OS3 — Operators</text>
+  <text class="small" x="600" y="425">ACP • simulation • calibration loops</text>
+
+  <rect class="box" x="580" y="210" width="380" height="90"/>
+  <text class="txt" x="600" y="245">Decision output</text>
+  <text class="small" x="600" y="275">ACT / HOLD / REJECT</text>
+
+  <path class="arrow" d="M440 105 L580 105"/>
+  <path class="arrow" d="M440 255 L580 105"/>
+  <path class="arrow" d="M770 150 L770 210"/>
+  <path class="arrow" d="M960 405 L770 405"/>
+  <path class="arrow" d="M250 360 L250 300"/>
+  <path class="arrow" d="M440 405 L580 405"/>
+  <path class="arrow" d="M770 300 L770 360"/>
+</svg>

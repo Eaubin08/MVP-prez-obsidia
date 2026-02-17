@@ -1,0 +1,6 @@
+flowchart TB
+  OS0["OS0: Axioms / Contract / IR / Sandbox"] --> OS1["OS1: Orchestration + X-108"]
+  OS2["OS2: Structural Metrics (pure)"] --> OS1
+  OS1 --> OUT["Decision: ACT / HOLD / REJECT"]
+  OS3["OS3: Operators (ACP / Simulation / Calibration)"] --> OS1
+  OS4["OS4: Meta / Civilisation (vision / ontology)"] --> OS3

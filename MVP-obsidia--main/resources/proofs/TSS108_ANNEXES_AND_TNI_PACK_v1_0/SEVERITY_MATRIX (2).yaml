@@ -1,0 +1,17 @@
+version: "1.0"
+severity_levels:
+  S0:
+    name: "Info"
+    required_response: ["LOG"]
+  S1:
+    name: "Minor"
+    required_response: ["LOG", "WARN"]
+  S2:
+    name: "Major"
+    required_response: ["LOG", "HOLD_LOCAL"]
+  S3:
+    name: "Critical"
+    required_response: ["LOG", "BLOCK_LOCAL", "INCIDENT_OPEN"]
+  S4:
+    name: "Systemic"
+    required_response: ["LOG", "BLOCK_GLOBAL", "INCIDENT_OPEN", "NOTIFY_AUTHORITY"]

@@ -1,0 +1,39 @@
+{
+  "hold_seconds": 10,
+  "coherence_threshold": 0.6,
+  "gate3": {
+    "max_drawdown": 0.08,
+    "max_volatility": 0.06,
+    "max_consecutive_losses": 4,
+    "cooldown_steps": 25
+  },
+  "simulation": {
+    "n_sims": 200,
+    "horizon": 20,
+    "bootstrap_window": 200
+  },
+  "score": {
+    "weights": {
+      "w_E": 1.0,
+      "w_sigma": 1.0,
+      "w_DD": 1.0,
+      "w_ruin": 1.0,
+      "w_T": 0.25,
+      "w_V": 0.25,
+      "w_X": 0.5
+    },
+    "dd_threshold": 0.05
+  },
+  "roi": {
+    "strategy_change_min_persist_steps": 100,
+    "roi_cooldown_steps": 200,
+    "risk_levels": [
+      0.0,
+      0.15,
+      0.25,
+      0.35
+    ],
+    "default_risk_level": 0.15,
+    "safe_exit_min_hold_steps": 400
+  }
+}

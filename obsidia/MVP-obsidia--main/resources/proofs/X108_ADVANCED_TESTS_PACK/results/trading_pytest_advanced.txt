@@ -1,0 +1,25 @@
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[33ms[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m[32m.[0m[33ms[0m[31m                                                      [100%][0m
+=================================== FAILURES ===================================
+[31m[1m_________________ test_clock_skew_small_jitter_near_threshold __________________[0m
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_clock_skew_small_jitter_near_threshold[39;49;00m():[90m[39;49;00m
+        tau = [94m10.0[39;49;00m[90m[39;49;00m
+        t0 = time.time()[90m[39;49;00m
+        [90m# just below tau with small jitter that should still be HOLD[39;49;00m[90m[39;49;00m
+        now = t0 + tau - [94m1e-9[39;49;00m[90m[39;49;00m
+>       [94massert[39;49;00m x108_gate([94mTrue[39;49;00m, t0, now, tau) == [33m"[39;49;00m[33mHOLD[39;49;00m[33m"[39;49;00m[90m[39;49;00m
+[1m[31mE       AssertionError: assert 'ALLOW' == 'HOLD'[0m
+[1m[31mE         [0m
+[1m[31mE         - HOLD[0m
+[1m[31mE         + ALLOW[0m
+
+[1m[31mtests_temporal_strong/test_clock_skew.py[0m:22: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests_temporal_strong/test_clock_skew.py::[1mtest_clock_skew_small_jitter_near_threshold[0m - AssertionError: assert 'ALLOW' == 'HOLD'
+  
+  - HOLD
+  + ALLOW
+[31m[31m[1m1 failed[0m, [32m16 passed[0m, [33m2 skipped[0m[31m in 0.41s[0m[0m
+
+/opt/pyvenv/lib/python3.11/site-packages/ddtrace/vendor/psutil/_pslinux.py:527: RuntimeWarning: 'sin' and 'sout' swap memory stats couldn't be determined and were set to 0 ([Errno 2] No such file or directory: '/proc/vmstat')
+  warnings.warn(msg, RuntimeWarning)

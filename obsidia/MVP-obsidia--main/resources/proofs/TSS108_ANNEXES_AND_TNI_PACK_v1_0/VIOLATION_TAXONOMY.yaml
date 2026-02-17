@@ -1,0 +1,46 @@
+version: "1.0"
+taxonomy:
+  V-T:
+    name: "Temporal"
+    examples:
+      - id: "V-T-NA"
+        title: "Non-anticipation violated"
+        definition: "ACT returned while irreversible and elapsed < tau"
+        minimum_severity: "S3"
+      - id: "V-T-CS"
+        title: "Clock skew not handled"
+        definition: "elapsed < 0 does not result in HOLD"
+        minimum_severity: "S2"
+  V-I:
+    name: "Integrity"
+    examples:
+      - id: "V-I-T0"
+        title: "t0 write-once violated"
+        definition: "t0 mutated for same intent_id"
+        minimum_severity: "S3"
+      - id: "V-I-HASH"
+        title: "Root integrity broken"
+        definition: "hash chain mismatch or unsigned pack"
+        minimum_severity: "S4"
+  V-P:
+    name: "Policy"
+    examples:
+      - id: "V-P-TOOL"
+        title: "Tool called outside policy"
+        definition: "tool invocation not allowed by policy table"
+        minimum_severity: "S3"
+      - id: "V-P-COST"
+        title: "Cost/capacity budget exceeded"
+        definition: "action attempted after max_cost/max_capacity violated"
+        minimum_severity: "S2"
+  V-A:
+    name: "Audit"
+    examples:
+      - id: "V-A-TRACE"
+        title: "Trace missing"
+        definition: "required event missing prevents replay"
+        minimum_severity: "S4"
+      - id: "V-A-DIFF"
+        title: "Replay divergence unreported"
+        definition: "expected != observed without violation record"
+        minimum_severity: "S3"

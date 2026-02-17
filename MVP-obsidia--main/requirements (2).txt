@@ -1,0 +1,18 @@
+# Obsidia Pro - Requirements
+# ==========================
+
+# Core
+streamlit>=1.31
+pandas>=2.0
+numpy>=1.24
+plotly>=5.18
+
+# Database
+sqlite3
+
+# Export (PDF/Excel)
+openpyxl>=3.1.0
+reportlab>=4.0.0
+
+# Email (optionnel)
+# Pour les notifications email, configurez votre serveur SMTP

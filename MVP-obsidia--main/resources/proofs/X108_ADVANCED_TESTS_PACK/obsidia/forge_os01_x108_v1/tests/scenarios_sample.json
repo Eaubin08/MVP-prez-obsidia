@@ -1,0 +1,7 @@
+[
+  {"id":"hold_irrev_0", "irreversible": true, "time_elapsed": 0, "threshold": 108, "IST": 1.0, "CMEC": 1.0, "input_text": "x = 1"},
+  {"id":"hold_irrev_50", "irreversible": true, "time_elapsed": 50, "threshold": 108, "IST": 1.0, "CMEC": 1.0, "input_text": "x = 1"},
+  {"id":"act_irrev_108", "irreversible": true, "time_elapsed": 108, "threshold": 108, "IST": 1.0, "CMEC": 1.0, "input_text": "x = 1"},
+  {"id":"act_reversible", "irreversible": false, "time_elapsed": 0, "threshold": 108, "IST": 1.0, "CMEC": 1.0, "input_text": "x = 1"},
+  {"id":"reject_contract", "irreversible": false, "time_elapsed": 0, "threshold": 108, "IST": 1.0, "CMEC": 1.0, "contract": {"allowed": false}, "input_text": "x = 1"}
+]

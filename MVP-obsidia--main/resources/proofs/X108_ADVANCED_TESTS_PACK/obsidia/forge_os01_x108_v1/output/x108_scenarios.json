@@ -1,0 +1,402 @@
+[
+  {
+    "id": "fallback#0",
+    "time_elapsed": 10.0,
+    "IST": 0.715305632469314,
+    "CMEC": 0.08495145947069405,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#1",
+    "time_elapsed": 60.0,
+    "IST": 0.3781341626933342,
+    "CMEC": 0.9700172028013475,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#2",
+    "time_elapsed": 30.0,
+    "IST": 0.18033458442994,
+    "CMEC": 0.7111824963527903,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#3",
+    "time_elapsed": 30.0,
+    "IST": 0.11195709697978962,
+    "CMEC": 0.08465043401647554,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#4",
+    "time_elapsed": 1.0,
+    "IST": 0.5334932232111607,
+    "CMEC": 0.6588018535720009,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#5",
+    "time_elapsed": 30.0,
+    "IST": 0.627635098096424,
+    "CMEC": 0.6914911911849517,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#6",
+    "time_elapsed": 600.0,
+    "IST": 0.03386142362412736,
+    "CMEC": 0.807573927363251,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#7",
+    "time_elapsed": 30.0,
+    "IST": 0.20155974858415582,
+    "CMEC": 0.7590951767627641,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#8",
+    "time_elapsed": 30.0,
+    "IST": 0.9870513083283916,
+    "CMEC": 0.9705534656998661,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#9",
+    "time_elapsed": 1.0,
+    "IST": 0.9842723787277197,
+    "CMEC": 0.1865113150082598,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#10",
+    "time_elapsed": 30.0,
+    "IST": 0.6926958891655963,
+    "CMEC": 0.7332754256503491,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#11",
+    "time_elapsed": 120.0,
+    "IST": 0.792417636402896,
+    "CMEC": 0.7771619869948344,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#12",
+    "time_elapsed": 120.0,
+    "IST": 0.5517380101885534,
+    "CMEC": 0.027083242164706145,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#13",
+    "time_elapsed": 600.0,
+    "IST": 0.19082680424820841,
+    "CMEC": 0.5311922329818081,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#14",
+    "time_elapsed": 0.0,
+    "IST": 0.7336133265991566,
+    "CMEC": 0.6144898919838454,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#15",
+    "time_elapsed": 120.0,
+    "IST": 0.2526938396030962,
+    "CMEC": 0.07186774753893266,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#16",
+    "time_elapsed": 10.0,
+    "IST": 0.39444049998191144,
+    "CMEC": 0.04537786875805827,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#17",
+    "time_elapsed": 120.0,
+    "IST": 0.7822532227325748,
+    "CMEC": 0.731498252903128,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#18",
+    "time_elapsed": 1.0,
+    "IST": 0.2923362664931497,
+    "CMEC": 0.3875526193877803,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#19",
+    "time_elapsed": 600.0,
+    "IST": 0.1855210452086654,
+    "CMEC": 0.17232310171256737,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#20",
+    "time_elapsed": 300.0,
+    "IST": 0.23750922851417022,
+    "CMEC": 0.8100820848353868,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#21",
+    "time_elapsed": 1.0,
+    "IST": 0.294653273165962,
+    "CMEC": 0.718900322182618,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#22",
+    "time_elapsed": 1.0,
+    "IST": 0.4509336655646172,
+    "CMEC": 0.5535385177738477,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#23",
+    "time_elapsed": 0.0,
+    "IST": 0.10244230598366189,
+    "CMEC": 0.650429031182478,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#24",
+    "time_elapsed": 1.0,
+    "IST": 0.8225950402933101,
+    "CMEC": 0.7601295036682779,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#25",
+    "time_elapsed": 300.0,
+    "IST": 0.43290334188388657,
+    "CMEC": 0.9513783631897362,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#26",
+    "time_elapsed": 1.0,
+    "IST": 0.8029844656985871,
+    "CMEC": 0.6966409024723001,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#27",
+    "time_elapsed": 0.0,
+    "IST": 0.9781369464074391,
+    "CMEC": 0.936274047741337,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#28",
+    "time_elapsed": 300.0,
+    "IST": 0.6044976186494913,
+    "CMEC": 0.1123414453147924,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#29",
+    "time_elapsed": 1.0,
+    "IST": 0.08495154727558807,
+    "CMEC": 0.876229692192849,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#30",
+    "time_elapsed": 1.0,
+    "IST": 0.41034489425335174,
+    "CMEC": 0.5376814427134691,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#31",
+    "time_elapsed": 300.0,
+    "IST": 0.595273669147892,
+    "CMEC": 0.5505693698581297,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#32",
+    "time_elapsed": 600.0,
+    "IST": 0.6299877458631,
+    "CMEC": 0.7298754825182916,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#33",
+    "time_elapsed": 10.0,
+    "IST": 0.07329827085350704,
+    "CMEC": 0.7062005029448154,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#34",
+    "time_elapsed": 10.0,
+    "IST": 0.8909012127631739,
+    "CMEC": 0.37974083286405536,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#35",
+    "time_elapsed": 0.0,
+    "IST": 0.6638626685275961,
+    "CMEC": 0.277599833968592,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#36",
+    "time_elapsed": 60.0,
+    "IST": 0.9878684043312812,
+    "CMEC": 0.3818653527999306,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#37",
+    "time_elapsed": 600.0,
+    "IST": 0.03680938914974674,
+    "CMEC": 0.6934632643614683,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#38",
+    "time_elapsed": 600.0,
+    "IST": 0.19760198334079093,
+    "CMEC": 0.8086656706992847,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#39",
+    "time_elapsed": 300.0,
+    "IST": 0.29732097585870887,
+    "CMEC": 0.9403641505804632,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#40",
+    "time_elapsed": 120.0,
+    "IST": 0.26106229060546216,
+    "CMEC": 0.03984308020410976,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#41",
+    "time_elapsed": 0.0,
+    "IST": 0.1417488407317471,
+    "CMEC": 0.12863108317040628,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#42",
+    "time_elapsed": 10.0,
+    "IST": 0.4133727466981427,
+    "CMEC": 0.38848635143155075,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#43",
+    "time_elapsed": 300.0,
+    "IST": 0.17132078078701596,
+    "CMEC": 0.32294728839257403,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#44",
+    "time_elapsed": 1.0,
+    "IST": 0.12913768723188213,
+    "CMEC": 0.930651570012999,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#45",
+    "time_elapsed": 1.0,
+    "IST": 0.34746939343721905,
+    "CMEC": 0.3588331229247982,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#46",
+    "time_elapsed": 60.0,
+    "IST": 0.8788911473845538,
+    "CMEC": 0.8092018000067416,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#47",
+    "time_elapsed": 30.0,
+    "IST": 0.8578037769816005,
+    "CMEC": 0.32394118328328336,
+    "irreversible": false,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#48",
+    "time_elapsed": 120.0,
+    "IST": 0.050443362788473944,
+    "CMEC": 0.19319448211015722,
+    "irreversible": true,
+    "raw_source": "fallback"
+  },
+  {
+    "id": "fallback#49",
+    "time_elapsed": 300.0,
+    "IST": 0.4885597355746666,
+    "CMEC": 0.7355695108089735,
+    "irreversible": false,
+    "raw_source": "fallback"
+  }
+]
