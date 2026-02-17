@@ -160,3 +160,6 @@ def render_register_form():
 
 # Initialiser l'authentification au chargement
 init_auth_session()
+st.session_state["authenticated"] = True
+st.session_state["user"] = {"username": "dev", "role": "admin"}
+

@@ -7,8 +7,7 @@ pandas>=2.0
 numpy>=1.24
 plotly>=5.18
 
-# Database
-sqlite3
+
 
 # Export (PDF/Excel)
 openpyxl>=3.1.0
